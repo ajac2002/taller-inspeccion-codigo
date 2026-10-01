@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-10-01T16:39:29.993">
+<file name="C:\Users\anton\Documents\Codex\2026-09-22\referenced-chatgpt-conversation-this-is-an\outputs\Entrega_Taller_Inspeccion_Codigo\CodeInspection\src\main\java\labcodeinspection\Email.java">
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="27" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" variable="m_firstName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'm_firstName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="27" rule="FieldNamingConventions" ruleset="Code Style" package="labcodeinspection" class="Email" variable="m_firstName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'm_firstName' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="26" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" variable="m_lastName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'm_lastName' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="26" rule="FieldNamingConventions" ruleset="Code Style" package="labcodeinspection" class="Email" variable="m_lastName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#fieldnamingconventions" priority="1">
+The field name 'm_lastName' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="31" rule="RedundantFieldInitializer" ruleset="Performance" package="labcodeinspection" class="Email" variable="password" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_performance.html#redundantfieldinitializer" priority="3">
+Avoid using redundant field initializer for 'password'
+</violation>
+<violation beginline="9" endline="9" begincolumn="14" endcolumn="34" rule="LongVariable" ruleset="Code Style" package="labcodeinspection" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#longvariable" priority="3">
+Avoid excessively long variable names like defaultpasswordLength
+</violation>
+<violation beginline="9" endline="9" begincolumn="14" endcolumn="34" rule="ImmutableField" ruleset="Design" package="labcodeinspection" class="Email" variable="defaultpasswordLength" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#immutablefield" priority="3">
+Private field 'defaultpasswordLength' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="22" rule="AvoidFieldNameMatchingTypeName" ruleset="Error Prone" package="labcodeinspection" class="Email" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#avoidfieldnamematchingtypename" priority="3">
+It is somewhat confusing to have a field name matching the declaring class name
+</violation>
+<violation beginline="12" endline="12" begincolumn="15" endcolumn="30" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="Email" method="Email" variable="firstName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'firstName' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="33" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="Email" method="Email" variable="lastName" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'lastName' is not assigned and could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="3" endcolumn="20" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="Email" method="showInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="19" endline="19" begincolumn="3" endcolumn="20" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="Email" method="showInfo" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.println is used
+</violation>
+<violation beginline="22" endline="22" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="Email" method="setDeparment" variable="depChoice" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'depChoice' is not assigned and could be declared final
+</violation>
+<violation beginline="23" endline="33" begincolumn="3" endcolumn="3" rule="SwitchStmtsShouldHaveDefault" ruleset="Best Practices" package="labcodeinspection" class="Email" method="setDeparment" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#switchstmtsshouldhavedefault" priority="3">
+Switch statements should be exhaustive, add a default case (or missing enum branches)
+</violation>
+<violation beginline="36" endline="36" begincolumn="32" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="Email" method="randomPassword" variable="length" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'length' is not assigned and could be declared final
+</violation>
+<violation beginline="37" endline="37" begincolumn="3" endcolumn="84" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="Email" method="randomPassword" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'set' could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="4" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="Email" method="randomPassword" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'rand' could be declared final
+</violation>
+<violation beginline="48" endline="48" begincolumn="16" endcolumn="45" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+<violation beginline="48" endline="48" begincolumn="49" endcolumn="77" rule="UseLocaleWithCaseConversions" ruleset="Error Prone" package="labcodeinspection" class="Email" method="generateEmail" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#uselocalewithcaseconversions" priority="3">
+When doing a String.toLowerCase()/toUpperCase() call, use a Locale
+</violation>
+</file>
+<file name="C:\Users\anton\Documents\Codex\2026-09-22\referenced-chatgpt-conversation-this-is-an\outputs\Entrega_Taller_Inspeccion_Codigo\CodeInspection\src\main\java\labcodeinspection\EmailApp.java">
+<violation beginline="5" endline="26" begincolumn="23" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="labcodeinspection" class="EmailApp" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+<violation beginline="7" endline="7" begincolumn="26" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="args" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal" priority="3">
+Parameter 'args' is not assigned and could be declared final
+</violation>
+<violation beginline="8" endline="8" begincolumn="11" endcolumn="12" rule="ShortVariable" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#shortvariable" priority="3">
+Avoid variables with short names like sc
+</violation>
+<violation beginline="8" endline="8" begincolumn="11" endcolumn="12" rule="CloseResource" ruleset="Error Prone" package="labcodeinspection" class="EmailApp" method="main" variable="sc" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this InputStream object are closed after use
+</violation>
+<violation beginline="8" endline="8" begincolumn="3" endcolumn="37" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'sc' could be declared final
+</violation>
+<violation beginline="10" endline="10" begincolumn="3" endcolumn="18" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="11" endline="11" begincolumn="3" endcolumn="34" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'firstName' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="3" endcolumn="18" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="14" endline="14" begincolumn="3" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'lastName' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="3" endcolumn="18" rule="SystemPrintln" ruleset="Best Practices" package="labcodeinspection" class="EmailApp" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_bestpractices.html#systemprintln" priority="2">
+System.out.print is used
+</violation>
+<violation beginline="18" endline="18" begincolumn="3" endcolumn="30" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'depChoice' could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="3" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Code Style" package="labcodeinspection" class="EmailApp" method="main" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.55.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal" priority="3">
+Local variable 'email' could be declared final
+</violation>
+</file>
+<configerror rule="LoosePackageCoupling" msg="No packages or classes specified"/>
+</pmd>
